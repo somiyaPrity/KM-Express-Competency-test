@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>KM Express Competency Test</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container  ">
+        <!-- header -->
+        <div class="add-user-header mx-auto mb-2 mt-5">
+            <div class="row ">
+                <div class="col-md-12" style="background-color: rgb(233, 51, 81);">
+                    <h1 class="text-center mt-2" style="font-size: 26px;padding: 4px; font-weight: bold;color: #fff;">
+                        Total User
+                        List</h1>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <button type="button" class="btn btn-primary bg-success ml-0 mt-4 add-user">add user</button>
+            </div>
+        </div>
+        <!-- table -->
+        <table class="table border bg-light mt-0 pb-5">
+            <thead class="t-head">
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">TotalScan</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Role</th>
+                    <th scope="col">Last Login</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody class="table-body">
+
+            </tbody>
+        </table>
+    </div>
+
+    <!-- popup form -->
+    <div class="popup">
+
+        <div class="pop-form">
+
+            <i class="fas fa-times-circle close"></i>
+
+            <h2 style="font-size: 20px;margin-top:20px;padding: 4px; background-color: rgb(233, 51, 81);
+            color: #fff; text-align: center;font-weight: bold;">Edit User
+            </h2>
+
+
+            <form style="margin-top:20px">
+                <div class="mb-3">
+                    <label for="exampleInputName" class="form-label">Enter your name</label>
+                    <input type="text" class="form-control name-field" id="exampleInputName">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Enter Your Email address</label>
+                    <input type="email" class="form-control email-field" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPhone" class="form-label">Enter your Phone Number</label>
+                    <input type="text" class="form-control phone-field" id="exampleInputPhone">
+                </div>
+                <div class="mb-0">
+                    <label for="exampleInputRole" class="form-label">Role</label>
+                    <input type="text" class="form-control mb-0 role-field" id="exampleInputRole">
+                </div>
+                <div class="row mt-2">
+                    <!-- for form submit button -->
+                    <div class="col-md-5">
+                        <button type="submit" class="btn btn-primary bg-success form-submit">Submit</button>
+
+                    </div>
+                    <!-- form update button -->
+                    <div class="col-md-7">
+                        <button type="submit" class="btn btn-primary bg-success form-update">Update</button>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/km.js"></script>
+</body>
+
+</html>

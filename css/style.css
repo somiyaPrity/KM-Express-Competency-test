@@ -1,0 +1,50 @@
+/* table style */
+.btn-primary {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: grey;
+}
+.delete {
+  color: red;
+  font-size: 20px;
+  margin-left: 8px;
+}
+.edit {
+  color: #0dcaf0;
+  font-size: 20px;
+}
+.t-head {
+  background-color: rgb(233, 51, 81);
+  color: #fff;
+}
+
+/* popup form */
+.popup {
+  background-color: rgba(26, 24, 24, 0.719);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5 linear;
+}
+.pop-form {
+  height: 500px;
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+}
+/* popup close icon */
+.close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  font-size: 24px;
+  color: red;
+  cursor: pointer;
+}
