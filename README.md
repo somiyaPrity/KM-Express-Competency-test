@@ -3,7 +3,7 @@
 ## Introduction
 
 This project has been made by CRUD operation. Here user can add some personal information. User can also edit and delete those information
-Live Demo-
+Live Demo- https://somiyaprity.github.io/KM-Express-Competency-test/
 
 ## How it works:
 
