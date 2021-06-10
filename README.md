@@ -87,7 +87,7 @@ function emptyTable(data) {
 }
 ```
 
-Above function "emptyTable()" will execute to show when there is no data in a table.
+Above function "emptyTable()" will execute to show a message when there is no data in a table.
 
 ```javascript
 function getRow(rowData) {
